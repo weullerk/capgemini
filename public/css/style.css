@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(227, 227, 227) !important;
+}
+
+.navbar {
+    background-color: rgb(1, 169, 244) !important;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255) !important;
+}
+
+/* course */
+.course-menu {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.course-menu .menu-item {
+    display: flex;
+    flex-basis: 100%;
+}
+
+/* Estilizando input de pesquisa */
+.course-search {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 0.3125rem;
+}
+
+.course-search input {
+    color: rgb(255, 255, 255) !important;
+}
+
+.course-search button {
+    color: white;
+}
+
+.course-search button.btn-icon:active {
+    color: white;
+    background-color: transparent;
+}
+
+.course-search button.btn-icon:focus {
+    color: white;
+    background-color: transparent;
+}
+
+.course-search button.btn-icon:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.course-search .form-control {
+    background-image: none;
+}
+
+.course-search .form-control:focus {
+    background-image: none;
+}
+
+.course-search .form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
+.course-search .form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+.course-search .form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+.course-search .form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+.course-search .form-control::-ms-input-placeholder { color: white; }
+
+/* Estilizando cards */
+
+.course-title {
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+}
+
+.course-title a{
+    color: black;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center
+}
+
+.card-footer div {
+    flex-basis: 100% !important;
+}
+
+.card-footer-icon {
+    text-align: right;
+}
+
+.detail-title {
+    font-weight: 400 !important;
+}
+
+div.datail-informations {
+    display: flex !important;
+    flex-flow: row nowrap;
+    align-items: stretch;
+}
+
+.detail-informations div {
+    display: flex !important;
+}
+
+.avatar-icon {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.detail-inscription {
+    text-align: center;
+}
+
+.detail-inscription .btn-warning {
+    background-color: rgb(255, 145, 1) !important;
+    color: rgb(0, 0, 0) !important;
+}
